@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserChanger.SettingController">
+  <tabs>
+    <Tab text="設定フォルダ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="95.0" text="CLIP STUDIO PAINT" />
+                  <TextField fx:id="CSPText1" layoutX="20.0" layoutY="115.0" nodeOrientation="LEFT_TO_RIGHT" promptText="通常は C:\Users\&quot;username&quot;\Document\CELSYS\CLIPStudioPaintVer1_5_0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                  <Button fx:id="CSPBt1" layoutX="505.0" layoutY="115.0" mnemonicParsing="false" onAction="#OnClickCSPBt1" text="…" />
+                  <Label layoutX="25.0" layoutY="175.0" text="Medibang Paint（メディバンペイント）" />
+                  <TextField fx:id="MPText1" layoutX="20.0" layoutY="195.0" promptText="C:\Users\”username”\AppData\Local\Medibang\CloudAlpaca" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                  <Button fx:id="MPBt1" layoutX="505.0" layoutY="195.0" mnemonicParsing="false" onAction="#OnClickMPBt1" text="…" />
+                  <Label layoutX="25.0" layoutY="255.0" text="Fire Alpaca" />
+                  <TextField fx:id="FAText1" layoutX="20.0" layoutY="275.0" promptText="C:\Users\username\AppData\Local\FireAlpaca" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                  <Button fx:id="FABt1" layoutX="505.0" layoutY="275.0" mnemonicParsing="false" onAction="#OnClickFABt1" text="…" />
+                  <Label layoutX="25.0" layoutY="36.0" prefHeight="17.0" prefWidth="365.0" text="ここにはソフトウェアの設定フォルダを設定してください" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="ユーザフォルダ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+            <children>
+                <Label layoutX="25.0" layoutY="95.0" text="CLIP STUDIO PAINT" />
+                <TextField fx:id="CSPText2" layoutX="20.0" layoutY="115.0" nodeOrientation="LEFT_TO_RIGHT" promptText="" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                <Button fx:id="CSPBt2" layoutX="505.0" layoutY="115.0" mnemonicParsing="false" onAction="#OnClickCSPBt2" text="…" />
+                <Label layoutX="25.0" layoutY="175.0" text="Medibang Paint（メディバンペイント）" />
+                <TextField fx:id="MPText2" layoutX="20.0" layoutY="195.0" promptText="" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                <Button fx:id="MPBt2" layoutX="505.0" layoutY="195.0" mnemonicParsing="false" onAction="#OnClickMPBt2" text="…" />
+                <Label layoutX="25.0" layoutY="255.0" text="Fire Alpaca" />
+                <TextField fx:id="FAText2" layoutX="20.0" layoutY="275.0" promptText="" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+                <Button fx:id="FABt2" layoutX="505.0" layoutY="275.0" mnemonicParsing="false" onAction="#OnClickFABt2" text="…" />
+                <Label layoutX="25.0" layoutY="36.0" prefHeight="17.0" prefWidth="365.0" text="ここではユーザーを保存しておくフォルダを設定してください" />
+            </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
