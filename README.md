@@ -8,3 +8,6 @@ Javaが入っているWindowsなら問題なく動くと思います。それ以
 PSUC.zipをダウンロードして展開すれば使えます。
 
 需要としてはかなりニッチだと思いますが必要になったので作りました。
+
+## スクリーンショット
+![1](https://user-images.githubusercontent.com/54407289/83383487-2bdc7b80-a420-11ea-9e43-1a2ce2ffe0ff.png)
